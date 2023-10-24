@@ -1,0 +1,274 @@
+/* Reset some default styles and apply a basic font */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Style the header on hover */
+header:hover {
+    background-color: #555; 
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
+}
+
+/* Style the links on hover */
+nav a:hover {
+    background-color: #ff6600; 
+    color: #fff; 
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Style the chatbot interface */
+#chatbot {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the additional sections */
+section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    color:blue;
+}
+
+/* Style the header links */
+header nav ul li a:hover {
+    color: #ff6600; /* Change the color on hover */
+}
+
+/* Style the "Home," "About," "Contact," and "Services" links */
+header nav ul li:nth-child(-n+4) {
+    display: inline;
+    margin-right: 0;
+    color: blue;
+}
+
+/* Add a separator between header links */
+header nav ul li:nth-child(n+5)::before {
+    content: " | ";
+    margin-right: 10px;
+    color: blue;
+}
+
+/* Style the links to the public services */
+header nav ul li:nth-child(n+5) a {
+    color: #ff6600;
+}
+
+
+/* Style the links within the .care container */
+.care a {
+    color: blue; 
+    text-decoration: none; 
+    margin-right: 10px; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
+    display: inline;
+}
+
+/* Style the links on hover */
+.care a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+
+tyle the chatbot container */
+#chatbot {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style chatbot messages */
+#chatbot-messages {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+/* Style chatbot message bubbles */
+.bot-message, .user-message {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/* Style user input field */
+#user-input-container {
+    display: flex;
+    align-items: center;
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#send-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Style send button on hover */
+#send-button:hover {
+    background-color: #ff4500;
+}
+/* Style the chatbot messages container */
+#chatbot-messages {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* Style user messages */
+.user-message {
+    background-color: #ff6600;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style bot messages */
+.bot-message {
+    background-color: #e0e0e0;
+    color: #333;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+/* Style the voice search button */
+#voice-search-button {
+    background-color: #ff6600; 
+    color: #fff; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+/* Style the voice search button icon (microphone) */
+#voice-search-button i {
+    font-size: 24px; 
+}
+
+/* Style the voice search button on hover */
+#voice-search-button:hover {
+    background-color: #ff4500; 
+}
+
+.head{
+    color: blue;
+}
+.footer{
+    color: red;
+    align-items: end;
+    text-align: center;
+}
+/* Style the footer text */
+footer p {
+    font-size: 14px;
+}
+/* Style the footer */
+.footer {
+    background-color:rgb(128, 0, 49);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the social media icons */
+.social {
+    margin: 20px 0; /* Add margin to separate the icons from the text */
+}
+
+.social a {
+    text-decoration: none;
+    color: #fff; /* Icon color */
+    font-size: 24px; /* Icon size */
+    margin: 0 10px; /* Spacing between icons */
+    transition: color 0.3s ease-in-out; /* Add a color transition on hover */
+}
+
+/* Style the social media icons on hover */
+.social a:hover {
+    color: #ff6600; /* Change the icon color on hover */
+}
